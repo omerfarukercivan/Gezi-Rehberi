@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Anasayfa">
+
+    <TextView
+        android:id="@+id/isimtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/emailtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/isimtv"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnKategoriler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailtv"
+        android:layout_marginTop="30dp"
+        android:text="Kategoriler" />
+
+    <Button
+        android:id="@+id/btnFavoriler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnKategoriler"
+        android:layout_marginTop="10dp"
+        android:text="Favoriler" />
+
+    <Button
+        android:id="@+id/btnCikis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnFavoriler"
+        android:layout_marginTop="10dp"
+        android:text="Çıkış yap" />
+
+</RelativeLayout>

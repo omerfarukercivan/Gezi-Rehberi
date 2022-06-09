@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".UyeOl">
+
+    <TextView
+        android:id="@+id/baslik"
+        style="@style/TextAppearance.MaterialComponents.Headline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="ÜYE OL" />
+
+    <TextView
+        style="@style/TextAppearance.MaterialComponents.Caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/baslik"
+        android:layout_centerHorizontal="true"
+        android:text="Yeni bir hesap oluşturun" />
+
+    <!--İSİM-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/isim"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/email"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/isimET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="İsim"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--EMAİL-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/email"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/sifre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/emailET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--ŞİFRE-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/sifre"
+        app:passwordToggleEnabled="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:id="@+id/sifreET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Şifre"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--GİRİŞ BUTONU-->
+    <Button
+        android:id="@+id/btnUyeOl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sifre"
+        android:layout_marginTop="10dp"
+        android:text="Üye Ol" />
+
+    <!--GİRİŞ YAP-->
+    <TextView
+        android:id="@+id/girisYap"
+        style="@style/TextAppearance.MaterialComponents.Caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:text="Zaten üye misiniz? Giriş yap" />
+
+
+</RelativeLayout>

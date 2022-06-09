@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="20dp"
+tools:context=".Favoriler">
+
+<TextView
+    android:id="@+id/banner"
+    style="@style/TextAppearance.MaterialComponents.Headline4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:text="Kategori Seçiniz"/>
+
+<Button
+    android:id="@+id/btnParklar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/btnKutuphaneler"
+    android:layout_marginBottom="10dp"
+    android:text="Parklar" />
+
+<Button
+    android:id="@+id/btnKutuphaneler"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/btnTarihiYerler"
+    android:layout_marginBottom="10dp"
+    android:text="Kütüphaneler" />
+
+<Button
+    android:id="@+id/btnTarihiYerler"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/btnOteller"
+    android:layout_marginBottom="10dp"
+    android:text="Tarihi Yerler"/>
+
+<Button
+    android:id="@+id/btnOteller"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:text="Oteller" />
+
+<Button
+    android:id="@+id/btnMarketler"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/btnOteller"
+    android:layout_marginTop="10dp"
+    android:text="Marketler" />
+
+<Button
+    android:id="@+id/btnIbadetYerleri"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/btnMarketler"
+    android:layout_marginTop="10dp"
+    android:text="İbadet Yerleri"/>
+
+<Button
+    android:id="@+id/btnOtoparklar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/btnIbadetYerleri"
+    android:layout_marginTop="10dp"
+    android:text="Otoparklar"/>
+
+</RelativeLayout>

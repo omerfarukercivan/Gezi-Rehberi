@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SayfaDetay">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/fotograf"
+                android:layout_width="1050px"
+                android:layout_height="700px"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/tvIsim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fotograf"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/tvucret"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvIsim"
+                android:layout_marginTop="8dp"
+                android:layout_alignParentStart="true"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/tvsure"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvIsim"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@+id/tvucret"
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tvyildizSayisi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvIsim"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="11dp"
+                android:layout_toRightOf="@+id/tvsure"
+                android:text="-" />
+
+            <ImageView
+                android:id="@+id/yildiz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvIsim"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="20dp"
+                android:layout_toRightOf="@+id/tvyildizSayisi"
+                android:background="@drawable/ic_baseline_star_rate_24" />
+
+            <TextView
+                android:id="@+id/tvbilgi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvsure"
+                android:layout_marginTop="49dp"
+                android:text="" />
+
+            <!--PUAN VERME-->
+            <RatingBar
+                android:id="@+id/puan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvbilgi"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:numStars="5"
+                android:progressTint="#FFD700"
+                android:stepSize="1" />
+
+            <Button
+                android:id="@+id/yildizBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvbilgi"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/puan"
+                android:text="Oyla" />
+
+            <!--YORUM YAPMA-->
+            <EditText
+                android:id="@+id/yorumEt"
+                android:layout_width="1000px"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/puan"
+                android:hint="Yorum yapın..." />
+
+            <ImageButton
+                android:id="@+id/gonderButon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/puan"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/yorumEt"
+                android:background="@drawable/send" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvYorum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/yorumEt" />
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

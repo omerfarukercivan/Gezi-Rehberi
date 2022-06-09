@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.rehberuygulamasi">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Gezi Rehberi"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RehberUygulamasi"
+        tools:targetApi="31">
+        <activity
+            android:name=".FavoriTarihiYerler"
+            android:exported="false"
+            android:parentActivityName=".Favoriler"
+            android:label="Favori Tarihi Yerler"/>
+        <activity
+            android:name=".FavoriOtoparklar"
+            android:exported="false"
+            android:parentActivityName=".Favoriler"
+            android:label="Favori Otoparklar"/>
+        <activity
+            android:name=".FavoriOteller"
+            android:exported="false"
+            android:parentActivityName=".Favoriler"
+            android:label="Favori Oteller"/>
+        <activity
+            android:name=".FavoriMarketler"
+            android:exported="false"
+            android:parentActivityName=".Favoriler"
+            android:label="Favori Marketler"/>
+        <activity
+            android:name=".FavoriKutuphaneler"
+            android:exported="false"
+            android:parentActivityName=".Favoriler"
+            android:label="Favori Kütüphaneler"/>
+        <activity
+            android:name=".FavoriIbadetYerleri"
+            android:exported="false"
+            android:parentActivityName=".Favoriler"
+            android:label="Favori İbadet Yerleri"/>
+        <activity
+            android:name=".FavoriParklar"
+            android:exported="false"
+            android:parentActivityName=".Favoriler"
+            android:label="Favori Parklar"/>
+        <activity
+            android:name=".SayfaDetay"
+            android:exported="false"
+            android:parentActivityName=".Kategoriler" />
+        <activity
+            android:name=".Favoriler"
+            android:exported="false"
+            android:label="Favoriler"
+            android:parentActivityName=".Anasayfa" />
+        <activity
+            android:name=".Otoparklar"
+            android:exported="false"
+            android:label="Otoparklar"
+            android:parentActivityName=".Kategoriler" />
+        <activity
+            android:name=".IbadetYerleri"
+            android:exported="false"
+            android:label="İbadet Yerleri"
+            android:parentActivityName=".Kategoriler" />
+        <activity
+            android:name=".Marketler"
+            android:exported="false"
+            android:label="Marketler"
+            android:parentActivityName=".Kategoriler" />
+        <activity
+            android:name=".Oteller"
+            android:exported="false"
+            android:label="Oteller"
+            android:parentActivityName=".Kategoriler" />
+        <activity
+            android:name=".TarihiYerler"
+            android:exported="false"
+            android:label="Tarihi Yerler"
+            android:parentActivityName=".Kategoriler" />
+        <activity
+            android:name=".Kutuphaneler"
+            android:exported="false"
+            android:label="Kütüphaneler"
+            android:parentActivityName=".Kategoriler" />
+        <activity
+            android:name=".Parklar"
+            android:exported="false"
+            android:label="Parklar"
+            android:parentActivityName=".Kategoriler" />
+        <activity
+            android:name=".Kategoriler"
+            android:exported="false"
+            android:label="Kategoriler"
+            android:parentActivityName=".Anasayfa" />
+        <activity
+            android:name=".UyeOl"
+            android:exported="false"
+            android:label="Üye Ol" />
+        <activity
+            android:name=".GirisYap"
+            android:exported="false"
+            android:label="Giriş Yap" />
+        <activity
+            android:name=".Anasayfa"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
