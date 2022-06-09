@@ -17,12 +17,12 @@ Uygulamamız bir gezi rehberidir. İstanbul şehrinde gezebileceğimiz ve yararl
 ![6](https://user-images.githubusercontent.com/102831736/172831978-c56b7de2-56d8-4c84-8b73-3dce2ef9bf48.png)
 <br/>
 
-# Uygulamamızın Ekran Görüntüsü
+# Uygulamamızın Ekran Kaydı
 
 https://youtu.be/AmmHSF6WcvU
 
 <br/>
-NOT: Uygulamamızın ekran görüntüsünü google drive linki olarak sorun yaşadığımız için youtube linki olarak ekledik.
+NOT: Uygulamamızın ekran kaydını google driveda sorun yaşadığımız için youtube linki olarak ekledik.
 <br/><br/>
 Ali Kaan Yayla (1190505061)
 <br/>
