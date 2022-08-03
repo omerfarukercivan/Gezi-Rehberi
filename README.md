@@ -25,7 +25,6 @@ https://youtu.be/AmmHSF6WcvU
 
 <br/>
 #Hazırlayanlar
-<br/>
 Ali Kaan Yayla (1190505061)
 <br/>
 Barış Çınar (1190505031)
