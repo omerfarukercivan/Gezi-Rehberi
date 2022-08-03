@@ -19,15 +19,6 @@ Uygulamamız bir gezi rehberidir. İstanbul şehrinde gezebileceğimiz ve yararl
 ![7](https://user-images.githubusercontent.com/102831736/172835587-bd182564-4bf0-4868-936e-c37cb5db6dfa.png)
 <br/>
 
-# Uygulamamızın Ekran Kaydı
+# Uygulamamın Ekran Kaydı
 
 https://youtu.be/AmmHSF6WcvU
-
-<br/>
-NOT: Uygulamamızın ekran kaydını google driveda sorun yaşadığımız için youtube linki olarak ekledik.
-<br/><br/>
-Ali Kaan Yayla (1190505061)
-<br/>
-Barış Çınar (1190505031)
-<br/>
-Ömer Faruk Ercivan (1190505033)
