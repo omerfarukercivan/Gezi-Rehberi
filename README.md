@@ -24,7 +24,7 @@ Uygulamamız bir gezi rehberidir. İstanbul şehrinde gezebileceğimiz ve yararl
 https://youtu.be/AmmHSF6WcvU
 
 <br/>
-#Hazırlayanlar
+# Hazırlayanlar
 Ali Kaan Yayla (1190505061)
 <br/>
 Barış Çınar (1190505031)
