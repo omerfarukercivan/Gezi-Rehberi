@@ -22,3 +22,12 @@ Uygulamamız bir gezi rehberidir. İstanbul şehrinde gezebileceğimiz ve yararl
 # Uygulamamın Ekran Kaydı
 
 https://youtu.be/AmmHSF6WcvU
+
+<br/>
+#Hazırlayanlar
+<br/>
+Ali Kaan Yayla (1190505061)
+<br/>
+Barış Çınar (1190505031)
+<br/>
+Ömer Faruk Ercivan (1190505033)
