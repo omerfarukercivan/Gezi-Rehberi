@@ -19,7 +19,7 @@ Uygulamamız bir gezi rehberidir. İstanbul şehrinde gezebileceğimiz ve yararl
 ![7](https://user-images.githubusercontent.com/102831736/172835587-bd182564-4bf0-4868-936e-c37cb5db6dfa.png)
 <br/>
 
-# Uygulamamın Ekran Kaydı
+# Uygulamamızın Ekran Kaydı
 
 https://youtu.be/AmmHSF6WcvU
 
