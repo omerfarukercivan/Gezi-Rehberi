@@ -76,42 +76,35 @@ public class Favoriler extends AppCompatActivity {
     private void btnParklar() {
         Intent intent = new Intent(this, FavoriParklar.class);
         startActivity(intent);
-        //finish();
     }
 
     private void btnKutuphaneler() {
         Intent intent = new Intent(this, FavoriKutuphaneler.class);
         startActivity(intent);
-        //finish();
     }
 
     private void btnTarihiYerler() {
         Intent intent = new Intent(this, FavoriTarihiYerler.class);
         startActivity(intent);
-        //finish();
     }
 
     private void btnOteller() {
         Intent intent = new Intent(this, FavoriOteller.class);
         startActivity(intent);
-        //finish();
     }
 
     private void btnMarketler() {
         Intent intent = new Intent(this, FavoriMarketler.class);
         startActivity(intent);
-        //finish();
     }
 
     private void btnIbadetYerleri() {
         Intent intent = new Intent(this, FavoriIbadetYerleri.class);
         startActivity(intent);
-        //finish();
     }
 
     private void btnOtoparlklar() {
         Intent intent = new Intent(this, FavoriOtoparklar.class);
         startActivity(intent);
-        //finish();
     }
 }
