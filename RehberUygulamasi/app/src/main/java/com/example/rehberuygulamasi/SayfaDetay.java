@@ -113,7 +113,6 @@ public class SayfaDetay extends AppCompatActivity {
         yorumOku();
 
         //PUAN VERME
-
         yildizBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
