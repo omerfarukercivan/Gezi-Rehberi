@@ -19,7 +19,7 @@ public class Anasayfa extends AppCompatActivity {
 
     TextView isimtv, emailtv;
     Button btnCikis, btnKategoriler, btnFavoriler;
-
+    //selam ben ömer
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
